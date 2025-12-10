@@ -1,6 +1,5 @@
 <div align="center">
-  <img alt="V2Ray Parser Banner" src="
-https://github.com/irOblivionSpark/v2ray-link-parser/raw/refs/heads/main/img/banner.png" />
+  <img alt="V2Ray Parser Banner" src="img/banner.png" />
   <br/>
   <h1 align="center">V2Ray Link Parser To JSON</h1>
   <p align="center">A fast, online developer tool to parse various V2Ray/Xray protocol links (VMess, VLESS, SS, Trojan) into structured JSON configuration.</p>
@@ -55,7 +54,7 @@ You must have [Node.js](https://nodejs.org/) (which includes npm) installed on y
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/iroblivionspark/v2ray-link-parser.git](https://github.com/iroblivionspark/v2ray-link-parser.git)
+    git clone https://github.com/iroblivionspark/v2ray-link-parser.git
     cd v2ray-link-parser
     ```
 
