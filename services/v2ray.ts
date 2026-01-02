@@ -987,7 +987,7 @@ export class Outbound extends CommonClass {
         let security = url.searchParams.get('security') ?? 'none';
         let stream = new StreamSettings(type, security);
 
-        let headerType = url.searchParams.get('headerType') ?? undefined;
+        let headerType = url.searchParams.get('headerType') || undefined;
         let host = url.searchParams.get('host') ?? undefined;
         let path = url.searchParams.get('path') ?? undefined;
         let mode = url.searchParams.get('mode') ?? undefined;
